@@ -5,6 +5,7 @@
  
   submit.addEventListener('click', function() {
     if (fileInput.files.length > 0) {  
+      resultDisplay.innerHTML = "Uploading the file..."
       uploadFile(fileInput.files[0]);
     }
   });
