@@ -1,0 +1,26 @@
+{
+  "name": "file-proj",
+  "version": "1.0.0",
+  "description": "File Metadata Microservice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volf52/file-metadata.git"
+  },
+  "author": "rslnkrmt2552@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/volf52/file-metadata/issues"
+  },
+  "homepage": "https://github.com/volf52/file-metadata#readme",
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-require": "^1.0.1",
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  }
+}
